@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051410"/>
+      <stop offset="50%" stop-color="#0a231c"/>
+      <stop offset="100%" stop-color="#04120e"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E676"/>
+      <stop offset="50%" stop-color="#69F0AE"/>
+      <stop offset="100%" stop-color="#00B0FF"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E676" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00B0FF" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      @keyframes rotateRecycle {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.05); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+        50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      }
+      .rotating-symbol {
+        transform-origin: 850px 160px;
+        animation: rotateRecycle 18s linear infinite;
+      }
+      .pulsing-circle {
+        transform-origin: 850px 160px;
+        animation: pulseGlow 4s ease-in-out infinite;
+      }
+      .route-path {
+        stroke-dasharray: 8, 6;
+        animation: dashMove 10s linear infinite;
+      }
+      .particle-1 { animation: floatParticle 5s ease-in-out infinite; }
+      .particle-2 { animation: floatParticle 7s ease-in-out infinite 1s; }
+      .particle-3 { animation: floatParticle 6s ease-in-out infinite 2s; }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        fill: #A7F3D0;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="320" rx="16" fill="url(#bgGrad)" stroke="#134E4A" stroke-width="2"/>
+
+  <!-- Background Grid Pattern -->
+  <g stroke="#0f382c" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="64" x2="1000" y2="64" />
+    <line x1="0" y1="128" x2="1000" y2="128" />
+    <line x1="0" y1="192" x2="1000" y2="192" />
+    <line x1="0" y1="256" x2="1000" y2="256" />
+    <line x1="160" y1="0" x2="160" y2="320" />
+    <line x1="320" y1="0" x2="320" y2="320" />
+    <line x1="480" y1="0" x2="480" y2="320" />
+    <line x1="640" y1="0" x2="640" y2="320" />
+    <line x1="800" y1="0" x2="800" y2="320" />
+  </g>
+
+  <!-- Animated Logistics / Route Curves -->
+  <path d="M 60 280 C 220 220, 360 300, 520 240 S 760 140, 850 160" fill="none" stroke="#00E676" stroke-width="2.5" class="route-path" opacity="0.6"/>
+  <path d="M 120 40 C 300 90, 480 30, 680 120 S 800 240, 850 160" fill="none" stroke="#00B0FF" stroke-width="2" class="route-path" opacity="0.4" style="animation-direction: reverse;"/>
+
+  <!-- Glowing background behind recycling emblem -->
+  <circle cx="850" cy="160" r="105" fill="url(#glowGrad)" class="pulsing-circle" filter="url(#glow)"/>
+  <circle cx="850" cy="160" r="85" fill="none" stroke="#00E676" stroke-width="1.5" stroke-dasharray="4, 4" opacity="0.5"/>
+
+  <!-- Rotating Mobius Recycling Arrows -->
+  <g class="rotating-symbol">
+    <!-- Arrow 1 (Top Right) -->
+    <path d="M 850 80 L 890 120 L 870 120 C 870 150, 895 175, 915 195 L 895 210 C 870 185, 845 155, 845 120 L 825 120 Z" fill="#00E676" filter="url(#subtleGlow)"/>
+    <!-- Arrow 2 (Bottom Right to Left) -->
+    <path d="M 915 215 L 870 235 L 880 220 C 855 205, 820 215, 795 215 L 785 235 C 815 235, 855 225, 885 245 L 875 260 Z" fill="#69F0AE" filter="url(#subtleGlow)"/>
+    <!-- Arrow 3 (Left back up) -->
+    <path d="M 785 185 L 790 135 L 805 145 C 825 125, 840 95, 850 80 L 830 70 C 820 90, 805 115, 785 135 L 770 125 Z" fill="#00B0FF" filter="url(#subtleGlow)"/>
+    <!-- Center core node -->
+    <circle cx="850" cy="160" r="14" fill="#10B981" />
+    <circle cx="850" cy="160" r="7" fill="#E6FFFA" />
+  </g>
+
+  <!-- Ambient Floating Data Particles -->
+  <circle cx="180" cy="100" r="4" fill="#00E676" class="particle-1"/>
+  <circle cx="450" cy="70" r="5" fill="#00B0FF" class="particle-2"/>
+  <circle cx="680" cy="270" r="4" fill="#69F0AE" class="particle-3"/>
+  <circle cx="310" cy="250" r="3" fill="#38BDF8" class="particle-1"/>
+
+  <!-- Left Content Area -->
+  <g transform="translate(60, 50)">
+    <!-- Category Pill Tag -->
+    <rect x="0" y="0" width="220" height="28" rx="14" fill="#064E3B" stroke="#059669" stroke-width="1.2"/>
+    <text x="110" y="19" text-anchor="middle" class="badge-text">RECYCLING &amp; WASTE OPS</text>
+
+    <!-- Main Title -->
+    <text x="0" y="72" fill="url(#textGrad)" font-size="38" class="title-text" filter="url(#subtleGlow)">Awesome Recycling</text>
+    <text x="0" y="116" fill="#FFFFFF" font-size="34" class="title-text">Operations Management</text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="152" fill="#94A3B8" font-size="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500">
+      Enterprise SaaS Platforms • IoT Container Telematics • Route Optimization
+    </text>
+    <text x="0" y="174" fill="#6EE7B7" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600">
+      Scrap MRF ERPs • Circular Economy Logistics • Open-Source Frameworks
+    </text>
+
+    <!-- Tech Badges inside Banner -->
+    <g transform="translate(0, 196)">
+      <rect x="0" y="0" width="108" height="24" rx="6" fill="#022C22" stroke="#047857" stroke-width="1"/>
+      <text x="54" y="16" text-anchor="middle" font-size="11" fill="#34D399" font-family="sans-serif" font-weight="700">🚛 FLEET ROUTING</text>
+
+      <rect x="118" y="0" width="112" height="24" rx="6" fill="#022C22" stroke="#047857" stroke-width="1"/>
+      <text x="174" y="16" text-anchor="middle" font-size="11" fill="#38BDF8" font-family="sans-serif" font-weight="700">📡 IOT TELEMATICS</text>
+
+      <rect x="240" y="0" width="105" height="24" rx="6" fill="#022C22" stroke="#047857" stroke-width="1"/>
+      <text x="292" y="16" text-anchor="middle" font-size="11" fill="#A7F3D0" font-family="sans-serif" font-weight="700">♻️ MRF / SCRAP</text>
+
+      <rect x="355" y="0" width="120" height="24" rx="6" fill="#022C22" stroke="#047857" stroke-width="1"/>
+      <text x="415" y="16" text-anchor="middle" font-size="11" fill="#FCD34D" font-family="sans-serif" font-weight="700">⭐ OPEN SOURCE</text>
+    </g>
+  </g>
+</svg>
