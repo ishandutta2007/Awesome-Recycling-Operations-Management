@@ -71,45 +71,45 @@ Key operational disciplines covered:
 
 ## 💻 Open-Source GitHub Projects
 
-*Ranked descending by GitHub Stargazers count. Click the star badge beside any repository to inspect its stargazer community.*
+*Ranked descending by GitHub Stargazers count. Click the Stars_Badge beside any repository to inspect its stargazer community.*
 
-- **[mampfes/hacs_waste_collection_schedule](https://github.com/mampfes/hacs_waste_collection_schedule)** [![GitHub stars](https://img.shields.io/github/stars/mampfes/hacs_waste_collection_schedule?style=social&color=white)](https://github.com/mampfes/hacs_waste_collection_schedule/stargazers)  
+- **[mampfes/hacs_waste_collection_schedule](https://github.com/mampfes/hacs_waste_collection_schedule)** [![GitHub_Stars](https://img.shields.io/github/stars/mampfes/hacs_waste_collection_schedule?style=social&color=white)](https://github.com/mampfes/hacs_waste_collection_schedule/stargazers)  
   Universal Home Assistant framework and scheduling parser that aggregates garbage, recycling, and organic waste collection schedules across hundreds of municipal authorities worldwide.
 
-- **[garythung/trashnet](https://github.com/garythung/trashnet)** [![GitHub stars](https://img.shields.io/github/stars/garythung/trashnet?style=social&color=white)](https://github.com/garythung/trashnet/stargazers)  
+- **[garythung/trashnet](https://github.com/garythung/trashnet)** [![GitHub_Stars](https://img.shields.io/github/stars/garythung/trashnet?style=social&color=white)](https://github.com/garythung/trashnet/stargazers)  
   Pioneering open dataset and Torch CNN architecture for automated recycling classification across 6 core material streams (glass, paper, cardboard, plastic, metal, and trash).
 
-- **[jzx-gooner/DL-wastesort](https://github.com/jzx-gooner/DL-wastesort)** [![GitHub stars](https://img.shields.io/github/stars/jzx-gooner/DL-wastesort?style=social&color=white)](https://github.com/jzx-gooner/DL-wastesort/stargazers)  
+- **[jzx-gooner/DL-wastesort](https://github.com/jzx-gooner/DL-wastesort)** [![GitHub_Stars](https://img.shields.io/github/stars/jzx-gooner/DL-wastesort?style=social&color=white)](https://github.com/jzx-gooner/DL-wastesort/stargazers)  
   Deep learning waste classification pipeline and sorting system based on convolutional neural networks for municipal recycling segregation.
 
-- **[bruxy70/Garbage-Collection](https://github.com/bruxy70/Garbage-Collection)** [![GitHub stars](https://img.shields.io/github/stars/bruxy70/Garbage-Collection?style=social&color=white)](https://github.com/bruxy70/Garbage-Collection/stargazers)  
+- **[bruxy70/Garbage-Collection](https://github.com/bruxy70/Garbage-Collection)** [![GitHub_Stars](https://img.shields.io/github/stars/bruxy70/Garbage-Collection?style=social&color=white)](https://github.com/bruxy70/Garbage-Collection/stargazers)  
   Home Assistant sensor integration for tracking repeating collection schedules for residential trash, multi-stream recyclables, and compost bins.
 
-- **[pippyn/Home-Assistant-Sensor-Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer)** [![GitHub stars](https://img.shields.io/github/stars/pippyn/Home-Assistant-Sensor-Afvalbeheer?style=social&color=white)](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/stargazers)  
+- **[pippyn/Home-Assistant-Sensor-Afvalbeheer](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer)** [![GitHub_Stars](https://img.shields.io/github/stars/pippyn/Home-Assistant-Sensor-Afvalbeheer?style=social&color=white)](https://github.com/pippyn/Home-Assistant-Sensor-Afvalbeheer/stargazers)  
   Specialized European waste collector API sensor for live collection dates, bin color codes, and recycling notifications.
 
-- **[idaho/hassio-trash-card](https://github.com/idaho/hassio-trash-card)** [![GitHub stars](https://img.shields.io/github/stars/idaho/hassio-trash-card?style=social&color=white)](https://github.com/idaho/hassio-trash-card/stargazers)  
+- **[idaho/hassio-trash-card](https://github.com/idaho/hassio-trash-card)** [![GitHub_Stars](https://img.shields.io/github/stars/idaho/hassio-trash-card?style=social&color=white)](https://github.com/idaho/hassio-trash-card/stargazers)  
   Interactive UI dashboard card for visualizing upcoming waste and recycling collection dates with colored bin icons and countdown timers.
 
-- **[AgaMiko/waste-datasets-review](https://github.com/AgaMiko/waste-datasets-review)** [![GitHub stars](https://img.shields.io/github/stars/AgaMiko/waste-datasets-review?style=social&color=white)](https://github.com/AgaMiko/waste-datasets-review/stargazers)  
+- **[AgaMiko/waste-datasets-review](https://github.com/AgaMiko/waste-datasets-review)** [![GitHub_Stars](https://img.shields.io/github/stars/AgaMiko/waste-datasets-review?style=social&color=white)](https://github.com/AgaMiko/waste-datasets-review/stargazers)  
   Exhaustive benchmark review and catalog of computer vision datasets covering urban litter, industrial recycling streams, and robotic waste sorting.
 
-- **[saleem-shaik-git/Salford-bin-community-app](https://github.com/saleem-shaik-git/Salford-bin-community-app)** [![GitHub stars](https://img.shields.io/github/stars/saleem-shaik-git/Salford-bin-community-app?style=social&color=white)](https://github.com/saleem-shaik-git/Salford-bin-community-app/stargazers)  
+- **[saleem-shaik-git/Salford-bin-community-app](https://github.com/saleem-shaik-git/Salford-bin-community-app)** [![GitHub_Stars](https://img.shields.io/github/stars/saleem-shaik-git/Salford-bin-community-app?style=social&color=white)](https://github.com/saleem-shaik-git/Salford-bin-community-app/stargazers)  
   Community-oriented mobile and web application providing pickup reminders, recyclable item lookup, and missed collection reporting.
 
-- **[meta-systems/openrecyclemap](https://github.com/meta-systems/openrecyclemap)** [![GitHub stars](https://img.shields.io/github/stars/meta-systems/openrecyclemap?style=social&color=white)](https://github.com/meta-systems/openrecyclemap/stargazers)  
+- **[meta-systems/openrecyclemap](https://github.com/meta-systems/openrecyclemap)** [![GitHub_Stars](https://img.shields.io/github/stars/meta-systems/openrecyclemap?style=social&color=white)](https://github.com/meta-systems/openrecyclemap/stargazers)  
   Geospatial recycling drop-off point finder built on OpenStreetMap data, helping citizens locate specialized bins for glass, batteries, paper, and e-waste.
 
-- **[cpoisson/trash-optimizer](https://github.com/cpoisson/trash-optimizer)** [![GitHub stars](https://img.shields.io/github/stars/cpoisson/trash-optimizer?style=social&color=white)](https://github.com/cpoisson/trash-optimizer/stargazers)  
+- **[cpoisson/trash-optimizer](https://github.com/cpoisson/trash-optimizer)** [![GitHub_Stars](https://img.shields.io/github/stars/cpoisson/trash-optimizer?style=social&color=white)](https://github.com/cpoisson/trash-optimizer/stargazers)  
   Computer vision sorting utility that identifies waste items and computes optimized navigation routes to the nearest verified recycling drop-off center.
 
-- **[ayussh-2/plastrack](https://github.com/ayussh-2/plastrack)** [![GitHub stars](https://img.shields.io/github/stars/ayussh-2/plastrack?style=social&color=white)](https://github.com/ayussh-2/plastrack/stargazers)  
+- **[ayussh-2/plastrack](https://github.com/ayussh-2/plastrack)** [![GitHub_Stars](https://img.shields.io/github/stars/ayussh-2/plastrack?style=social&color=white)](https://github.com/ayussh-2/plastrack/stargazers)  
   AI-enabled plastic waste tracking platform featuring geolocation hotspot mapping, volume estimation, and recycling facility routing.
 
-- **[ReCycler-Initiative/ReCycler](https://github.com/ReCycler-Initiative/ReCycler)** [![GitHub stars](https://img.shields.io/github/stars/ReCycler-Initiative/ReCycler?style=social&color=white)](https://github.com/ReCycler-Initiative/ReCycler/stargazers)  
+- **[ReCycler-Initiative/ReCycler](https://github.com/ReCycler-Initiative/ReCycler)** [![GitHub_Stars](https://img.shields.io/github/stars/ReCycler-Initiative/ReCycler?style=social&color=white)](https://github.com/ReCycler-Initiative/ReCycler/stargazers)  
   Modern digital infrastructure framework for connecting citizens with local recycling collection hubs and circular-economy initiatives.
 
-- **[rais-github/Smart-WMS](https://github.com/rais-github/Smart-WMS)** [![GitHub stars](https://img.shields.io/github/stars/rais-github/Smart-WMS?style=social&color=white)](https://github.com/rais-github/Smart-WMS/stargazers)  
+- **[rais-github/Smart-WMS](https://github.com/rais-github/Smart-WMS)** [![GitHub_Stars](https://img.shields.io/github/stars/rais-github/Smart-WMS?style=social&color=white)](https://github.com/rais-github/Smart-WMS/stargazers)  
   Smart waste management web solution utilizing machine learning models for solid waste classification, verification, and bin fill audits.
 
 ---
