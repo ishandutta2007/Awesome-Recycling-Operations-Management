@@ -42,53 +42,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[AMCS Platform](https://www.amcsgroup.com/)**  
-
-  Leading enterprise waste and recycling software covering collection, transport, facility operations, billing, compliance, and ESG reporting for large operators.
-
-
-
-- **[Rubicon](https://www.rubicon.com/)**  
-
-  Digital waste and recycling marketplace and operations platform that connects generators with haulers and provides sustainability analytics and diversion tracking.
-
-
-
-- **[Evreka](https://evreka.co/)**  
-
-  Smart waste and recycling operations platform with IoT-enabled container monitoring, route optimization, collection management, and analytics.
-
-
-
-- **[Recycle Track Systems (RTS)](https://www.rts.com/)**  
-
-  Technology-enabled recycling and waste services platform focused on commercial and municipal collection with tracking and reporting.
-
-
-
-- **[Soft-Pak](https://www.soft-pak.com/)**  
-
-  Established waste and recycling management software for haulers covering routing, billing, customer management, and operations.
-
-
-
-- **[RecyclePro, Compology, RecycleGO](https://www.compology.com/)**  
-
-  Specialized platforms for container monitoring, material tracking, and recycling logistics optimization.
-
-
-
-- **[ReMatter, Trash Flow](https://www.rematter.com/)**  
-
-  Solutions focused on scrap and recycling facility operations, material management, and flow tracking.
-
-
-
-- **[Other waste & recycling operations platforms](https://www.amcsgroup.com/)**  
-
-  Additional commercial tools covering scale-house systems, commodity trading, landfill management, and fleet optimization.
+| Platform | Description & Key Focus | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[AMCS Platform](https://www.amcsgroup.com/)** | Enterprise waste & recycling operations ERP covering collection routing, scale-house ticketing, MRF facility management, and ESG compliance. | Starts at $1,250/month (base operational package billed annually at ~$15,000/year for core fleet and facility modules) | No free-forever tier; offers 14-day guided proof-of-concept pilot with sample facility data upon qualification (0 days public self-serve trial) |
+| **[Rubicon](https://www.rubicon.com/)** | Smart waste & recycling marketplace and municipal fleet operations software with route management, IoT telematics, and diversion tracking. | Starts at $200/vehicle/month (or base municipal deployment from $7,000/month for fleets up to 30 collection vehicles) | No free-forever tier; provides 60-day to 6-month municipal pilot trials (limited to 5–10 pilot vehicles with in-cab hardware deployment) |
+| **[Evreka](https://evreka.co/)** | Smart waste and recycling operations platform featuring IoT bin/container fill-level monitoring, dynamic route optimization, and materials recovery management. | Starts at $35/vehicle/month (or entry fleet management tier starting at $250/month) | No free-forever tier; 14-day guided pilot trial available on request (includes IoT monitoring dashboard and up to 5 tracking assets) |
+| **[Recycle Track Systems (RTS)](https://www.rts.com/)** | Waste logistics, on-demand recycling haulage, and Pello AI-powered bin fill-level and contamination tracking platform. | Starts at $25/sensor/month (for Pello IoT container sensors; commercial hauling management plans start at $500/month) | No free-forever tier; 14-day free pilot trial for Pello container sensors (includes test hardware sensor unit and cloud portal access) |
+| **[Soft-Pak](https://www.soft-pak.com/)** | Hauler operations and billing software suite managing commercial and residential route dispatch, customer accounts, and scale-house terminals. | Starts at $100/truck/month (or entry-level standalone billing package starting at $1,200/year) | No free-forever tier; offers scheduled live 1-on-1 virtual product walkthrough demo with technical advisors (0 days public trial) |
+| **[Compology](https://www.compology.com/)** | AI-powered dumpster camera and container monitoring system that rightsizes service schedules and detects recycling contamination. | Starts at $10/container/month (camera hardware, automated image analysis, and web portal access subscription) | No free-forever tier; 30-day pilot trial program (limited to up to 5 containers with sensor installation) |
+| **[RecycleGO](https://www.recyclego.com/)** | Cloud logistics and supply-chain traceability platform for recycling haulers, sorting facilities, and material processors. | Starts at $199/month (entry subscription for small hauler fleet routing and chain-of-custody material tracking) | No free-forever tier; 14-day free trial on request with sample dispatch schedule and route optimization dataset |
+| **[ReMatter](https://www.rematter.com/)** | Scrap metal recycling operations software featuring fast scale ticketing, real-time yard inventory, pricing management, and dispatch. | Starts at $300/month (Essentials plan for a single yard location, scaling to $600/month for Pro) | No free-forever tier; 30-day free trial available for ReMA (Recycled Materials Association) members; interactive live sandbox demo for general yards |
+| **[Trash Flow](https://www.trashflow.com/)** | Established waste hauling and recycling software suite featuring dispatch, route optimization, billing, and roll-off container tracking. | Starts at $60/month (Route Optimization for 1st user; +$30/user/month for users 2–8; or $900 base one-time license) | 90-day free demo/trial with full access to standard billing, route management, and container tracking tools |
+| **[ScrapRight](https://www.scrapright.com/)** | Scrap yard and recycling center management software with automated compliance, driver's license scanning, and scale integration. | Starts at $49/month (iScrapRight cloud tier; +$500 startup fee; full Buy-Side & Compliance suite at $698/month) | No free-forever tier; 14-day guided sandbox demo upon scheduling with technical onboarding team |
+| **[cieTrade](https://cietrade.com/)** | Specialized recycling and scrap facility ERP managing scale ticketing, inventory valuation, commodity brokerage, and freight dispatch. | Starts at $375/month (base tier for 3 concurrent users on a month-to-month subscription) | No free-forever tier; offers personalized live system demonstration and sample workflow testing (0 days public self-serve trial) |
+| **[DumpDeck](https://dumpdeck.com/)** | Roll-off dumpster and recycling collection management software featuring online booking, container inventory tracking, and driver dispatch. | Starts at $99/month flat rate (for operators managing >10 dumpsters; includes unlimited trucks, drivers, and users) | Free forever plan for small operators managing up to 10 dumpsters ($0/month with full core feature access) |
+| **[DumpsterControls](https://dumpstercontrols.io/)** | All-in-one dumpster rental and recycling operations system with customer dispatch, driver routing, and automated invoicing. | Starts at $0/month (core software free forever; optional $169/month Unlimited plan for reduced payment processing fees) | Free forever plan with unlimited dumpsters, unlimited drivers, and unlimited dispatch orders ($0/month subscription) |
+| **[Route4Me (Waste & Recycling)](https://www.route4me.com/)** | Dynamic vehicle route planning and fleet optimization software tailored for curbside waste, recycling collection, and roll-off haulers. | Starts at $199/month (core route optimization plan for up to 10 team members/drivers) | 7-day free trial with full route optimization features; or free mobile edition limited to 10 stops per route |
+| **[CurbWaste](https://www.curbwaste.com/)** | Modern cloud ERP for waste haulers, roll-off operations, and commercial recyclers with real-time dispatch, customer portal, and QuickBooks sync. | Starts at $150/truck/month (or entry-level operator tier starting at $450/month for up to 3 trucks) | No free-forever tier; offers 14-day guided pilot onboarding and custom sandbox demo upon consultation |
 
 
 
